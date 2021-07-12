@@ -80,3 +80,59 @@ top blog  start
   text-decoration: none;
   color: #562eff;
 }
+/*--------------------------------- 
+        courses style 
+----------------------------- */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+.course {
+  width: 252px;
+  height: 269px;
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  /* margin-left: 12px;
+  margin-right: 12px; */
+
+  /* padding: 12px; */
+  /* padding-left: 14px;
+  padding-top: 13px;
+  padding-right: 0px;
+  padding-bottom: 16px; */
+  padding: 13px 0;
+}
+.course .course-banner img {
+  width: 224px;
+  height: 104px;
+  margin-left: 12px;
+  margin-right: 16px;
+}
+.course-detail {
+  margin-left: 12px;
+  margin-right: 16px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.course-duration {
+  position: relative;
+  color: #ff4a60;
+  font-size: 13px;
+  background-color: #ff4a5f5d;
+  border-radius: 14px;
+  margin-right: 0px;
+  padding: 2px 5px;
+}
