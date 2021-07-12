@@ -4,13 +4,52 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0;
 }
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 90px;
 }
+/*-------------------------
+            navabr start
+-------------------------------*/
+header {
+  background-color: #562eff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  color: white;
+  margin-left: 5px;
+}
+.logo img {
+  height: 50px;
+  width: 40px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+/* ------------------------
+navbar end
+-------------------------- */
 .container {
   background-color: #ffffff;
   width: 870px;
