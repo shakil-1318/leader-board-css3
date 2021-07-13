@@ -167,11 +167,45 @@ top blog  start
   color: #aeaeae;
 }
 .course-duration {
-  position: relative;
+  /* position: relative; */
   color: #ff4a60;
   font-size: 13px;
   background-color: #ff4a5f5d;
   border-radius: 14px;
   margin-right: 0px;
   padding: 2px 5px;
+}
+
+/*------------------------------
+                 media query mobile screen
+ -----------------------------------------------*/
+@media only screen and (max-width: 668px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+    height: 130px;
+  }
+  .logo .nav-menu {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .players,
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player,
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+  .course {
+    margin: 0 auto;
+  }
 }
